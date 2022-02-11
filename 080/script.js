@@ -17,3 +17,8 @@ const areaOrPerimeter = function(l , w) {
       return perimeter;
     }
 }
+
+// better solution
+// const areaOrPerimeter = function(l , w) {
+//     return l == w ? l*w : 2*(l + w)
+//   };
