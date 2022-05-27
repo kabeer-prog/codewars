@@ -4,4 +4,8 @@
 
 function squareSum(numbers){
 
+    var sqNum = numbers.map(num=>num*num);
+    var addNum = sqNum.reduce((acc,curr)=> acc + curr);
+    return addNum
+
   }
